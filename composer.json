@@ -17,11 +17,9 @@
   "require": {
     "php": "^7.1",
     "contao/core-bundle": "~4.4",
-    "erdmannfreunde/euf_nutshell": "dev-feature/css_variables",
+    "erdmannfreunde/euf_nutshell": "dev-feature/css_variables as 1.0.0",
     "erdmannfreunde/euf_contact": "^1.0",
     "erdmannfreunde/euf_hero": "^2.0",
-    "erdmannfreunde/euf_grid": "dev-feature/css_grid_layout"
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+    "erdmannfreunde/euf_grid": "dev-feature/css_grid_layout as 3.0.0"
+  }
 }
