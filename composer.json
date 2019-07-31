@@ -21,5 +21,6 @@
     "erdmannfreunde/euf_contact": "^1.0",
     "erdmannfreunde/euf_hero": "^2.0",
     "erdmannfreunde/euf_grid": "dev-feature/css_grid_layout"
-  }
+  },
+  "minimum-stability": "dev",
 }
