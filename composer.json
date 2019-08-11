@@ -1,11 +1,13 @@
 {
   "name": "erdmannfreunde/lasr-theme-bundle",
-  "type": "contao-bundle",
+  "type": "metapackage",
   "description": "Install LASR Theme dependencies via Contao Manager or Composer",
   "keywords": [
     "contao theme",
     "contao",
-    "theme"
+    "theme",
+    "lasr",
+    "laser"
   ],
   "license": "LGPL-3.0-or-later",
   "authors": [
@@ -16,10 +18,10 @@
     ],
   "require": {
     "php": "^7.1",
-    "contao/core-bundle": "~4.4",
-    "erdmannfreunde/euf_nutshell": "dev-feature/css_variables",
+    "contao/core-bundle": "4.4.*",
+    "erdmannfreunde/euf_nutshell": "^1.0",
     "erdmannfreunde/euf_contact": "^1.0",
     "erdmannfreunde/euf_hero": "^2.0",
-    "erdmannfreunde/euf_grid": "dev-feature/css_grid_layout"
+    "erdmannfreunde/euf_grid": "^3.0"
   }
 }
