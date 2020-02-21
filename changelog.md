@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.0 (21.02.2020)
+- Kompatibilität zu Contao 4.9 hergestellt
+- Die Custom Properties werden nun innerhalb von `:root {}` definiert, dadurch lassen sie sich besser vom Nutshell Framework unterscheiden
+- Node Dependencies aktualisiert
+
 ## 1.2.0 (19.11.2019)
 - Die Demo der Server-Edition lässt sich nun direkt über den Contao Manager installieren, s.a. hhttps://erdmann-freunde.de/dokumentationen/contao-themes/theme-installieren/server-edition/theme-mit-demo/
 - Für die Instalallation _mit Demo_ und _ohne Demo_ gibt es nun getrennte ZIP-Archive
