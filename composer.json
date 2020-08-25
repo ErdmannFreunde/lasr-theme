@@ -18,10 +18,11 @@
     ],
   "require": {
     "php": "^7.1",
-    "contao/core-bundle": "4.4.* || 4.9.*",
+    "contao/core-bundle": "4.4.* || 4.9.* || 4.10.*",
     "erdmannfreunde/euf_nutshell": "^1.0",
     "erdmannfreunde/euf_contact": "^1.0",
     "erdmannfreunde/euf_hero": "^2.0",
-    "erdmannfreunde/euf_grid": "^3.0"
+    "erdmannfreunde/contao-grid-bundle": "^1.0",
+    "erdmannfreunde/portfoliobundle": "^3.0"
   }
 }
