@@ -23,6 +23,7 @@
     "erdmannfreunde/euf_contact": "^1.0",
     "erdmannfreunde/euf_hero": "^2.0",
     "erdmannfreunde/contao-grid-bundle": "^1.0",
-    "erdmannfreunde/portfoliobundle": "^3.0"
+    "erdmannfreunde/portfoliobundle": "^3.0",
+    "contao-components/tinymce4": "^4.7"
   }
 }
