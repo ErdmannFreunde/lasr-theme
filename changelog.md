@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.0 (25.08.2020)
+- NEU: Die Referenzen lassen sich jetzt über die Portfolio-Erweiterung verwalten
+- Browser-Support Hinweis wird nun per JS eingefügt (via js_supportmsg.html5)
+- Kompatibilität zu Contao 4.9 hergestellt
+- LASR verwendet nun das Contao-Grid-Bundle (Nachfolger von euf_grid)
+
 ## 1.3.0 (21.02.2020)
 - Kompatibilität zu Contao 4.9 hergestellt
 - Die Custom Properties werden nun innerhalb von `:root {}` definiert, dadurch lassen sie sich besser vom Nutshell Framework unterscheiden
