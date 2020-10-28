@@ -1,9 +1,13 @@
 # Changelog
 
+## 2.1.0 (28.10.2020)
+- NEU: Über `$boxed-layout: false;` in `base/_layout.scss` lässt sich das Layout über die komplette Breite strecken. Da wir grundsätzlich Anpassungen an der Berechnung vornehmen mussten, lässt sich diese Einstellung nicht bereits bestehenden Projekten umsetzen.
+- NEU: Verwendung der Portfolio-Erweiterung in Version 4.0. Referenzen tauchen nun in der Sitemap auf. Außerdem können unterschiedliche Archive ausgewählt und Rechte festgelegt werden.
+
 ## 2.0.0 (25.08.2020)
 - NEU: Die Referenzen lassen sich jetzt über die Portfolio-Erweiterung verwalten
 - Browser-Support Hinweis wird nun per JS eingefügt (via js_supportmsg.html5)
-- Kompatibilität zu Contao 4.9 hergestellt
+- Kompatibilität zu Contao 4.10 hergestellt
 - LASR verwendet nun das Contao-Grid-Bundle (Nachfolger von euf_grid)
 
 ## 1.3.0 (21.02.2020)
