@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.0.2 (12.02.2021)
+- Kompatibilität zum Contao Manager 1.4 bzw Composer 2 wiederhergestellt
+- Contao 4.4 Support eingestellt
+
 ## 3.0.1 (05.12.2020)
 - Kompatibilität zum Portfolio-Bundle 4.1.1 wiederhergestellt
 
