@@ -1,5 +1,9 @@
 # Changelog
 
+# 3.1.0 (07.03.2021)
+- Unterstützung für Contao 4.11
+- Contao 4.10 Support eingestellt
+
 ## 3.0.2 (12.02.2021)
 - Kompatibilität zum Contao Manager 1.4 bzw Composer 2 wiederhergestellt
 - Contao 4.4 Support eingestellt
