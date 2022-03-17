@@ -17,7 +17,7 @@
         }
     ],
   "require": {
-    "php": "^7.1",
+    "php": ">=7.1",
     "contao/core-bundle": "4.9.* || 4.13.*",
     "erdmannfreunde/euf_nutshell": "^1.0",
     "erdmannfreunde/euf_contact": "^1.0",
