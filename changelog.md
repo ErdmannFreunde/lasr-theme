@@ -1,5 +1,9 @@
 # Changelog
 
+## 3.3.1 (17.03.2022)
+- PHP 8 Unterstützung
+- Adresse in Demo-Daten angepasst
+
 ## 3.3.0 (15.02.2022)
 - Unterstützung für Contao 4.13
 - Contao 4.12 Support eingestellt
