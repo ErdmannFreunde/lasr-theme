@@ -1,5 +1,11 @@
 # Changelog
 
+## 3.3.3 (05.09.2022)
+- Entwickler Edition: postcss als Abhängigkeit ergänzt
+
+## 3.3.2 (05.09.2022)
+- Bugix in Hilfsklasse p-t-* behoben
+
 ## 3.3.1 (17.03.2022)
 - PHP 8 Unterstützung
 - Adresse in Demo-Daten angepasst
