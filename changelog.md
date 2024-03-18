@@ -1,4 +1,10 @@
 # Changelog
+## 3.3.4 (18.03.2024)
+Bugfix für Chrome und Browser auf Chrome-Engine: Die mobile Navigation wurde aufgrund einer geänderten Interpretation von `position: fixed`in Kombination mit `justify-self: end` nicht mehr ganz ausgeblendet.
+
+Das Problem lässt sich beheben, indem du in `components/_navs.scss` in ca. Zeile 33ff die Anweisung von `justify-self: end;` auf `margin-left: auto;` änderst.
+
+**NEU:** Bugfixes werden ab sofort auch in der `_updates.scss` festgehalten. Die Anweisungen sind so formuliert, dass sie in eine separate, selbst anzulegende  `_updates.scss` kopiert und danach über die `default.scss` am Ende importiert werden können.
 
 ## 3.3.3 (05.09.2022)
 - Entwickler Edition: postcss als Abhängigkeit ergänzt
