@@ -25,5 +25,13 @@
     "erdmannfreunde/contao-grid-bundle": "^2.0",
     "erdmannfreunde/portfoliobundle": "^5.0",
     "erdmannfreunde/theme-toolbox": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ErdmannFreunde\\LasrTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "contao-manager-plugin": "ErdmannFreunde\\LasrTheme\\ContaoManager\\Plugin"
   }
 }
