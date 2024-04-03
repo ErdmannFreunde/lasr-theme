@@ -22,8 +22,8 @@
     "nutshell-framework/nutshell": "^1.0",
     "nutshell-framework/contact-element": "^1.1",
     "nutshell-framework/hero-element": "^1.0",
-    "erdmannfreunde/contao-grid-bundle": "^1.0",
-    "erdmannfreunde/portfoliobundle": "^4.0",
-    "erdmannfreunde/theme-toolbox": "^1.0"
+    "erdmannfreunde/contao-grid-bundle": "^2.0",
+    "erdmannfreunde/portfoliobundle": "^5.0",
+    "erdmannfreunde/theme-toolbox": "^3.0"
   }
 }
