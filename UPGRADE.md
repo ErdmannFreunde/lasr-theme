@@ -14,14 +14,16 @@ Um bestehende Contao 4 Installationen auf Contao 5.3 LTS aktualisieren zu könne
 Auch wenn nach dem Update auf Contao 5.3 LTS bereits 3 Migrationen ausgeführt werden, musst du dennoch damit rechnen, dass du mehrere Inhaltselemente nachträglich bearbeiten musst (siehe u.a. Punkt 4: Hero-Element).
 
 ### 1. Vorbereitung
-
-Lade dir aus dem Club-Bereich das Zusatzpaket `upgrade-contao-53.zip` herunter. In diesem ZIP-Archiv sind die weiter unter erwähnten `.scss`- und `.html5`-Dateien.
+- Prüfe, ob alle Drittanbieter-Erweiterungen mit Contao 5.3 komaptibel sind. Manche Erweiterungen erfordern eine andere Bezeichnung oder neue Version (z.B. `^2.0` statt `^1.0`)
+- Lade dir aus dem Club-Bereich das Zusatzpaket `upgrade-contao-53.zip` herunter. In diesem ZIP-Archiv sind die weiter unter erwähnten `.scss`- und `.html5`-Dateien.
 
 ### 2. Contao Update auf 5.3
 
-**Standard Edition**: Entferne das private Paket **LASR-SE**, das du über den Contao Manager hochgeladen hast. Führe dann eine Paketaktualisierung durch. Überspringe den Schritt „Datenbank aktualisieren“ indem du auf „Bestätigen & Schließen“ klickst, denn wir wollen alle Datenbank-Inhalte erhalten.
+Das LASR-Theme gab es in Ausführungen, der Standard-Edition und der Entwickler Edition. Wenn du über den Contao Manager ein Paket hochgeladen hast, dann hast du die Standard Edition. Die Entwickler Edition ist eine lokale Installation unter Verwendung von gulp.js 
 
-**Entwickler Edition**: Solltest du die Entwickler-Edition verwenden, prüfe, dass du die aktuellste Version des lasr-theme-bundles verwendest oder passe die Version ggf. an. Sie sollte mindestens 3.X sein.
+**Wenn du die Standard Edition einsetzt**: Entferne das private Paket **LASR-SE**, das du über den Contao Manager hochgeladen hast. Führe dann eine Paketaktualisierung durch. Überspringe den Schritt „Datenbank aktualisieren“ indem du auf „Bestätigen & Schließen“ klickst, denn wir wollen alle Datenbank-Inhalte erhalten.
+
+**Wenn du die Entwickler Edition einsetzt**: Solltest du die Entwickler-Edition verwenden, prüfe, dass du die aktuellste Version des lasr-theme-bundles verwendest oder passe die Version ggf. an. Sie sollte mindestens 3.X sein.
 
 Führe nun ein Contao Update auf Contao 5.3 durch, indem du die Versionsnummer im Contao Manager auf `5.3.*` änderst und lasse **alle Pakete aktualisieren**. 
 
