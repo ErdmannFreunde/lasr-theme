@@ -45,7 +45,7 @@ Contao, Theme-Erweiterungen und Datenbank sind nun auf dem aktuellen Stand.
 
 Statt `erdmannfreunde/euf_nutshell` wird nun das neue Repository `nutshell-framework/assets` verwendet. Die Dateien des Frameworks liegen nun unter `assets/nutshell` (statt wie bisher unter `files/nutshell`). Nach dem Update müssen die Pfade entsprechend angepasst werden:
 
-#### Standard:
+#### Standard Edition:
 - Alle Sass-Importe müssen von `../../../nutshell` auf `../../../../assets/nutshell` umgeschrieben werden.
 
 #### Entwickler Edition:
