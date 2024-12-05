@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.1.1 (05.12.2024)
+
+- ein Fehler bei der Tastaturbedienung wurde behoben. Menüpunkte lassen sich nun auch mit ENTER auswählen.
+
 ## 4.1.0 (25.10.2024)
 
 Die neue Version hat eine Vielzahl von Neuerungen zur Verbesserungen der Barrierefreiheit bekommen:

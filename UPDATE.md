@@ -1,5 +1,15 @@
 # UPDATES
 
+## LASR 4.1.1
+
+Ein Fehler im Script verhinderte die Auswahl eines Menüpunkts mit der ENTER-Taste. außerdem wurde eine Variable ergänzt, um die Farbe des Menüs einfacher ändern zu können.
+
+- `theme/js/accessibility.js` wurde optimiert
+
+### \_variables.scss, \_navs.scss
+
+`--nav-main-color` wurde ergänzt, um die Farbe des Hauptmenüs per Variable ändern zu können.
+
 ## LASR 4.1.0
 
 Die neue Version hat eine Vielzahl von Neuerungen zur Verbesserungen der Barrierefreiheit bekommen:
